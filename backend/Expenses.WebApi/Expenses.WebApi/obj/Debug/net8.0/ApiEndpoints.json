@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "Expenses.WebApi.Controllers.AuthenticationController",
+    "Method": "SignIn",
+    "RelativePath": "Authentication/signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Expenses.DB.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expenses.WebApi.Controllers.AuthenticationController",
+    "Method": "SignUp",
+    "RelativePath": "Authentication/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Expenses.DB.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expenses.WebApi.Controllers.ExpensesController",
+    "Method": "GetExpenses",
+    "RelativePath": "Expenses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expenses.WebApi.Controllers.ExpensesController",
+    "Method": "CreateExpense",
+    "RelativePath": "Expenses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expense",
+        "Type": "Expenses.DB.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expenses.WebApi.Controllers.ExpensesController",
+    "Method": "DeleteExpense",
+    "RelativePath": "Expenses",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expense",
+        "Type": "Expenses.Core.DTO.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expenses.WebApi.Controllers.ExpensesController",
+    "Method": "EditExpense",
+    "RelativePath": "Expenses",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expense",
+        "Type": "Expenses.Core.DTO.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expenses.WebApi.Controllers.ExpensesController",
+    "Method": "GetExpense",
+    "RelativePath": "Expenses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
